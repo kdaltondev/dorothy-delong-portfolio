@@ -1,0 +1,203 @@
+* {
+  padding: 0;
+}
+
+/**Main Styles**/
+body {
+  background: #f5f5f5;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+/**Header Style**/
+header {
+  background: #7a2578;
+}
+
+.logo-img {
+  max-width: 325px;
+  padding: .625rem;
+}
+header h2 {
+  color: #f8f8f7;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header ul {
+  list-style: none;
+  padding: 0 0 1.25rem 1.25rem;
+  margin-bottom: 0;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #f8f8f7;
+}
+
+
+
+/**Hero Section**/
+
+#hero {
+  margin-top: 1.875em;
+}
+
+.hero-img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hero-txt {
+  font-size: 1.4rem;
+  color: #fa4bf4;
+}
+
+/**Artist Statement Style**/
+#artist-statement {
+  margin-top: 2.5em;
+}
+
+/**Portfolio Style**/
+#portfolio {
+  margin-top: 2.5em;
+  margin-bottom: .625em;
+}
+
+#portfolio h2 {
+  color: #fa4bf4;
+  text-transform: uppercase;
+}
+
+#portfolio img {
+  width: 100%;
+  margin: 0 auto;
+}
+#portfolio p {
+}
+
+.portfolio-item {
+  margin-bottom: 1.25em;
+}
+
+/**Contact Style**/
+#contact {
+  background: #7a2578;
+  padding: .3125rem 2.5rem .625rem;
+}
+#contact h2 {
+  color: #f5f5f5;
+  font-size: 1.2rem;
+}
+
+#contact p {
+  color: #f5f5f5;
+  font-size: 1 rem;
+  line-height: 1.5;
+}
+
+.icon-bckgrnd {
+  background-color: #f5f5f5;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.social-icons {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 1.25rem;
+  padding-top: 1.25rem;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+  padding: 10px 10px;
+}
+
+/**Media Query**/
+
+
+/**For Tablets**/
+@media (min-width: 768px) {
+  p {
+    font-size: 1.1em;
+  }
+  h1 {
+    font-size: 1.3em;
+  }
+  h2 {
+    font-size: 1.75em;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.25rem;
+  }
+ 
+  header ul li {
+    display: inline-block;
+    padding-left: 1.875rem;
+  }
+  #hero {
+    display: flex;
+    align-items: center;
+  }
+
+  .hero-txt {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1.5em;
+  }
+
+  .hero-img-container {
+    width: 40%;
+  }
+  #artist-statement h2 {
+    text-align: center;
+  }
+  #artist-statement p {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  #portfolio {
+    margin-top: 100px;
+    margin-bottom: 40px;
+  }
+
+  #portfolio h2 {
+    text-align: center;
+  }
+  .portfolio-items-all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .portfolio-item {
+    width: 48%;
+  }
+  #contact {
+    display: flex;
+  }
+  .contact-info {
+    width: 48%;
+  }
+  .social-icons {
+    width: 48%;
+  }
+ 
+  
+}
+
+/**For Desktop**/
+@media (min-width: 1025px) {
+  #hero h1 {
+    font-size: 2em;
+  }
+}
